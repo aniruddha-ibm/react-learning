@@ -1,16 +1,10 @@
-import React from "react";
-import Card from "./Components/Card"
+import React from 'react'
+import SearchFilter from './Components/SearchFilter/SearchFilter'
 
-import "./App.css"
-
-function App(){
-  return(
-    <>
-
-    <Card/>
-    <Card/>
-    </>
-  );  
+const App = () => {
+  return (
+    <SearchFilter/>
+  )
 }
 
-export default App;
+export default App
