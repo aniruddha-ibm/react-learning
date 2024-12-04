@@ -1,9 +1,11 @@
 import React from 'react'
-import SearchFilter from './Components/SearchFilter/SearchFilter'
+import Counter from './Components/Counter/Counter'
 
 const App = () => {
   return (
-    <SearchFilter/>
+    <div>
+      <Counter />
+    </div>
   )
 }
 

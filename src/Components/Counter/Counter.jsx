@@ -1,6 +1,7 @@
 import React from "react";
 import './Counter.css'
 import { useState } from "react";
+import Button from "../Button/Button";
 
 const Counter = () => {
     const [count, setCount] = useState(0);
@@ -17,8 +18,10 @@ const Counter = () => {
            >{count}</h1>
            
             <div className="button_wrapper">
-                <button onClick={decrementCount}>-</button>
-                <button onClick={incrementCount}>+</button>
+                {/* <button onClick={decrementCount}>-</button>
+                <button onClick={incrementCount}>+</button> */}
+                <Button func = {incrementCount}/>
+                <Button func = {incrementCount}/>
             </div>
             
         </div>
